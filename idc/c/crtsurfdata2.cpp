@@ -1,6 +1,7 @@
 /*
  *  Name: crtsurfdata1.cpp 本程序用于生成全国气象站点观测的分钟数据
  *  Author: HCtoutou
+ *  把全国气象站点参数文件加载到站点参数容器中
  */
 
 #include "_public.h"
@@ -91,7 +92,7 @@ bool LoadSTCode(const char *inifile)
     vstcode.push_back(stcode);
    }
    // 关闭文件
-   for(int i = 0; i < vstcode.size(); i++)
-   logfile.Write("provname=%s,obtid=%s.obtname=%s,lat=%.2f,lon=%.2f,height=%.2f\n",vstcode[i].provname,vstcode[i].obtid,vstcode[i].obtname,vstcode[i].lat,vstcode[i].lon,vstcode[i].height); 
+   /*for(int i = 0; i < vstcode.size(); i++)
+   logfile.Write("provname=%s,obtid=%s.obtname=%s,lat=%.2f,lon=%.2f,height=%.2f\n",vstcode[i].provname,vstcode[i].obtid,vstcode[i].obtname,vstcode[i].lat,vstcode[i].lon,vstcode[i].height);*/ 
    return true; 
 }
