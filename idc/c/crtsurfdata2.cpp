@@ -1,5 +1,5 @@
 /*
- *  Name: crtsurfdata1.cpp 本程序用于生成全国气象站点观测的分钟数据
+ *  Name: crtsurfdata2.cpp 本程序用于生成全国气象站点观测的分钟数据
  *  Author: HCtoutou
  *  把全国气象站点参数文件加载到站点参数容器中
  */
