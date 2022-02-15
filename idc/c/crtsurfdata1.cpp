@@ -27,8 +27,9 @@ int main(int argc,char *argv[])
     printf("logfile.Open(%s) failed.\n"); return -1;
    }
    logfile.Write("crtsurfdata1 开始运行。\n");
-
-
+  
+  //此处添加业务代码
+  
    logfile.Write("crtsurfdata1 运行结束。\n");
 
    return 0;
