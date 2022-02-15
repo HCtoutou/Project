@@ -1,6 +1,7 @@
 /*
  *  Name: crtsurfdata1.cpp 本程序用于生成全国气象站点观测的分钟数据
  *  Author: HCtoutou
+ *  搭建程序框架
  */
 
 #include "_public.h"
