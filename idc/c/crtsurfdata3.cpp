@@ -1,6 +1,7 @@
 /*
  *  Name: crtsurfdata1.cpp 本程序用于生成全国气象站点观测的分钟数据
  *  Author: HCtoutou
+ *  遍历站点参数容器，生成每个站点的观测数据，存放在站点观测数据容器中
  */
 
 #include "_public.h"
@@ -148,6 +149,6 @@ void CrtSurfData()
     // 把观测数据的结构体放入vsurfdata容器
     vsurfdata.push_back(stsurfdata);
   }
-  printf("aaa\n");
+  //printf("aaa\n");
 }
 
