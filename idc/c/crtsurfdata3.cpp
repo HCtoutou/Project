@@ -31,7 +31,7 @@ struct st_surfdata
   int p;		// 气压：0.1百帕
   int u;		// 相对湿度，0-100之间的值
   int wd;		// 风向，0-360之间的值
-  int wf;		// 风俗，单位0.1m/s
+  int wf;		// 风速，单位0.1m/s
   int r;		// 降雨量：0.1mm
   int vis;		// 能见度：0.1米
 };
@@ -149,6 +149,6 @@ void CrtSurfData()
     // 把观测数据的结构体放入vsurfdata容器
     vsurfdata.push_back(stsurfdata);
   }
-  //printf("aaa\n");
+  //printf("aaa\n"); 调试行
 }
 
