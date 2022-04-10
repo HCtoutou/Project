@@ -235,7 +235,6 @@ bool _syncupdate()
       connloc.rollback();	// 插入语句执行失败了，一定要回滚事务。
       return false;
     }
-
     logfile.WriteEx(" %d rows in %.2fsec.\n",stmtins.m_cda.rpc,Timer.Elapsed());
     connloc.commit();
     return true;
