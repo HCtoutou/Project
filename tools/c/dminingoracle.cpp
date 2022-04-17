@@ -1,6 +1,6 @@
 /*
  *  程序名：dminingoracle.cpp，本程序是数据中心的公共功能模块，用于从Oracle数据库源表抽取数据，生成xml文件。
- *  作者：吴从周。
+ *  作者：HCtoutou。
 */
 #include "_public.h"
 #include "_ooci.h"
